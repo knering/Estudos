@@ -1,5 +1,5 @@
-# **Repositório da Fatec**
+# **Repositório de estudos**
 
-Coisas genéricas que uso durante o curso.
+Coisas genéricas que fiz durante o curso.
 
 # **Em atualização**
