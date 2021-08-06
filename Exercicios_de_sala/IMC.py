@@ -1,3 +1,5 @@
+#ALgoritmo que calcula IMC
+
 sexo = str(input("Insira o sexo (utilize 'M' ou 'H'): "))
 if (sexo == "M" or sexo == "H"):
     alt = float(input("Insira a altura (em metros): "))
