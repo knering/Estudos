@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*COLORS*/
+    --darkgray: #A9A9A9;
+    --light-gray: #D3D3D3;
+    --green: #1DB954;
+    --black: #191414;
+    --white: #FFFFFF;
+    
+    /*FONT*/
+    font-size: 62.5%;
+    --logo-font: 'Pacifico', cursive;
+    --text-font:'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+/* =========== HEADER ============ */
+#header {
+    box-shadow: 5px 5px 10px var(--black);
+    height: 10rem;
+
+    display: grid;
+    align-items: center;
+
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo,
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .title {
+    margin-left: 3rem;
+    font-family: var(--logo-font);
+}
+
+nav .list-menu {
+    font-size: 2rem;
+    padding: 2rem;
+    color: var(--logo-color);
+    font-family: var(--text-font);
+}
+
+nav .list-menu:hover{
+    color: var(--green);
+    transition: .3s;
+    border-bottom: 5px solid var(--green);
+}
+
+/*=========== FOOTER =============*/
+footer {
+    background-color: var(--light-gray);
+    padding: 4rem;
+}
+
+.footer-panda {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .names {
+    font-size: 1.6rem;
+    font-family: var(--text-font);
+    color: var(--black);
+}
+
+footer span {
+    color: var(--green);
+}
